@@ -11,11 +11,6 @@ with open("setting.json","r",encoding="utf8")as jfile:
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix = jdata["CommandPrefix"], intents = intents)
 
-# 當機器人完成啟動時
-@bot.event
-async def on_ready():
-    print(f"目前登入身份：{bot.user}")
-
 @bot.event
 #當機器人完成啟動時
 async def on_ready():
