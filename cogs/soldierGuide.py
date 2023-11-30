@@ -1,18 +1,21 @@
 import discord
-from discord.ext import commands
 import json
+from opencc import OpenCC
+from discord.ext import commands
 from core.classes import Cog_Extension
 
 with open("setting.json","r",encoding="utf8")as jfile:
     jdata = json.load(jfile)
 
+cc = OpenCC('s2twp')
+
 class SoldierConverter(commands.Converter):
     async def convert(self, ctx, argument):
-        return argument
+        return cc.convert(argument.lower())
     
 class SoldierGuide(Cog_Extension):
 
-    @commands.command(name="兵種")
+    @commands.command(name="兵種", aliases=["兵种"])
     async def soldier(self, ctx, *, soldier: SoldierConverter):
         if soldier in jdata.get("Soldier", []):
             index = jdata["Soldier"].index(soldier)
