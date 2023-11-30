@@ -21,7 +21,7 @@ class SoldierGuide(Cog_Extension):
             index = jdata["Soldier"].index(soldier)
             soldierPic = jdata["pic_soldier"][index]
             pic = discord.File(soldierPic)  
-            message="本圖由驅邪提供"
+            message="本圖由驅邪提供，無更新版本僅供參考"
             await ctx.send(content=message,file=pic)
 
     # 註冊一個別名為兵種名稱的指令，方便直接使用 !0.0兵種名稱
