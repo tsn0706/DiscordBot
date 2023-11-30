@@ -1,8 +1,9 @@
 {
-    "TOKEN":"MTE3ODY4NjI0NDQxOTU1MTI2Mw.GXyTZa.5eqdYbFVOdndvoU_CL4drwKVbhSFJDkrUuRlPY",
+    "TOKEN":"MTE3ODY4NjI0NDQxOTU1MTI2Mw.GHdNSV.ZIITH2vG8ne8Lywbv02bW-B8ZQwJtL6IKp9FjA",
     "CommandPrefix": "!咩",
     "Member_channel":"1171486167145906209",
     "Guild":"1171486167145906206",
+    
     "pic_soldier":[
         "D:\\DiscordBot\\Pic_soldier\\刀盾.png",
         "D:\\DiscordBot\\Pic_soldier\\大刀騎.png",
@@ -24,8 +25,12 @@
         "D:\\DiscordBot\\Pic_soldier\\劍騎.png",
         "D:\\DiscordBot\\Pic_soldier\\錘盾.png",
         "D:\\DiscordBot\\Pic_soldier\\獵人.png",
-        "D:\\DiscordBot\\Pic_soldier\\大刀騎.png"
+        "D:\\DiscordBot\\Pic_soldier\\大刀騎.png",
+        "D:\\DiscordBot\\Pic_soldier\\槍兵.PNG",
+        "D:\\DiscordBot\\Pic_soldier\\騎兵.JPG",
+        "D:\\DiscordBot\\Pic_soldier\\盾兵.JPG",
+        "D:\\DiscordBot\\Pic_soldier\\弓兵.PNG"
     ],
     "Soldier":["刀盾","大刀騎","弓騎","長弓","長戈","長茅","長槍","長劍","毒弓","重盾","重騎",
-    "陌刀","強弩","連弩","槍盾","槍騎","劍盾","劍騎","錘盾","獵人","刀騎"]
+    "陌刀","強弩","連弩","槍盾","槍騎","劍盾","劍騎","錘盾","獵人","刀騎","槍兵","騎兵","盾兵","弓兵"]
 }
