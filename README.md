@@ -1,2 +1,2 @@
-# discord-bot
+# DiscordBot
 九萬畝
