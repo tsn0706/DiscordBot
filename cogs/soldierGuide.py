@@ -20,9 +20,11 @@ class SoldierGuide(Cog_Extension):
         if soldier in jdata.get("Soldier", []):
             index = jdata["Soldier"].index(soldier)
             soldierPic = jdata["pic_soldier"][index]
-            pic = discord.File(soldierPic)  
-            message="本圖由驅邪提供，無更新版本僅供參考"
-            await ctx.send(content=message,file=pic)
+            embed = discord.Embed()
+            embed.add_field(name = f"兵種-{soldier}", value = "", inline=False)
+            embed.set_image(url = soldierPic)
+            embed.set_footer(text="本圖由驅邪提供，無更新版本僅供參考")
+            await ctx.send(embed = embed)
 
     # 註冊一個別名為兵種名稱的指令，方便直接使用 !0.0兵種名稱
     for soldier_name in jdata.get("Soldier", []):
