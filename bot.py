@@ -19,6 +19,11 @@ async def on_ready():
     #discord.Status.<狀態>，可以是online,offline,idle,dnd,invisible
     await bot.change_presence(status=discord.Status.online, activity=game)
 
+@bot.event
+async def on_command_error(ctx, error):#前綴輸入正確但指令錯誤時
+    if isinstance(error, commands.CommandNotFound):
+        await ctx.send("無指令\n輸入: \" !咩指令 \" 了解更多噢")
+
 # 載入指令程式檔案
 @bot.command()
 async def load(ctx, extension):
