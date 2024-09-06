@@ -1,38 +1,68 @@
 {
-    "TOKEN":"",
-    "CommandPrefix": "!咩",
-    "AdministratorId":"[594222676986298380, 809831210259447870]",
-    "Member_channel":"1171486167145906209",
-    "Guild":"1171486167145906206",
-    "pic_soldier":[
-        "D:\\DiscordBot\\Pic_soldier\\刀盾.png",
-        "D:\\DiscordBot\\Pic_soldier\\大刀騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\弓騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\長弓.png",
-        "D:\\DiscordBot\\Pic_soldier\\長戈.png",
-        "D:\\DiscordBot\\Pic_soldier\\長茅.png",
-        "D:\\DiscordBot\\Pic_soldier\\長槍.png",
-        "D:\\DiscordBot\\Pic_soldier\\長劍.png",
-        "D:\\DiscordBot\\Pic_soldier\\毒弓.png",
-        "D:\\DiscordBot\\Pic_soldier\\重盾.png",
-        "D:\\DiscordBot\\Pic_soldier\\重騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\陌刀.png",
-        "D:\\DiscordBot\\Pic_soldier\\強弩.png",
-        "D:\\DiscordBot\\Pic_soldier\\連弩.png",
-        "D:\\DiscordBot\\Pic_soldier\\槍盾.png",
-        "D:\\DiscordBot\\Pic_soldier\\槍騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\劍盾.png",
-        "D:\\DiscordBot\\Pic_soldier\\劍騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\錘盾.png",
-        "D:\\DiscordBot\\Pic_soldier\\獵人.png",
-        "D:\\DiscordBot\\Pic_soldier\\大刀騎.png",
-        "D:\\DiscordBot\\Pic_soldier\\槍兵.PNG",
-        "D:\\DiscordBot\\Pic_soldier\\騎兵.JPG",
-        "D:\\DiscordBot\\Pic_soldier\\盾兵.JPG",
-        "D:\\DiscordBot\\Pic_soldier\\弓兵.PNG"
+    "CommandPrefix": "/咩",
+    "GreetingsChannelId": "1171486167145906209",
+    "AnnouncementChannelId": "1180086134651506728",
+    "Guild": "1171486167145906206",
+    "pic_soldier": [
+        "https://img.onl/GRXUVt",
+        "https://img.onl/kqSx8Z",
+        "https://img.onl/OkOESG",
+        "https://img.onl/SDhKHG",
+        "https://img.onl/srk29x",
+        "https://img.onl/FVPYEO",
+        "https://img.onl/EhNX5i",
+        "https://img.onl/NDs74J",
+        "https://img.onl/PMyaKp",
+        "https://img.onl/PRbe8B",
+        "https://img.onl/dpxMeI",
+        "https://img.onl/ZGP0eW",
+        "https://img.onl/NCblAr",
+        "https://img.onl/AUmTpK",
+        "https://img.onl/oiLjPf",
+        "https://img.onl/pKDrjH",
+        "https://img.onl/rs5uC6",
+        "https://img.onl/BwAjf3",
+        "https://img.onl/F3XFtd",
+        "https://img.onl/wbyFIY"
     ],
-    "Soldier":["刀盾","大刀騎","弓騎","長弓","長戈","長茅","長槍","長劍","毒弓","重盾","重騎",
-    "陌刀","強弩","連弩","槍盾","槍騎","劍盾","劍騎","錘盾","獵人","刀騎","槍兵","騎兵","盾兵","弓兵"
-    ]
-    
+    "Soldier": [
+        "長槍",
+        "長矛",
+        "長戈",
+        "陌刀",
+        "長劍",
+        "刀盾兵",
+        "重盾",
+        "槍盾",
+        "錘盾",
+        "劍盾",
+        "長弓",
+        "連弩",
+        "毒弓",
+        "獵人",
+        "強弩",
+        "劍騎",
+        "槍騎",
+        "大刀騎兵",
+        "重騎",
+        "弓騎"
+    ],
+    "Building": [
+        {
+            "Type": "主城",
+             "pic":"https://img.onl/w59cp0"
+        },
+        {
+            "Type": "研究所",
+            "pic":"https://img.onl/QfNv3l"
+         },
+        {
+            "Type": "鐵匠鋪",
+            "pic":"https://img.onl/gknKGr"
+        }
+    ],
+    "Equipment": [
+        "爆擊刀",
+        "乾坤刀"
+     ]
 }
